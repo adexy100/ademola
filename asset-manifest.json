@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/ademola/static/css/main.78bad890.chunk.css",
+    "main.js": "/ademola/static/js/main.5d185aa8.chunk.js",
+    "main.js.map": "/ademola/static/js/main.5d185aa8.chunk.js.map",
+    "runtime-main.js": "/ademola/static/js/runtime-main.f737df72.js",
+    "runtime-main.js.map": "/ademola/static/js/runtime-main.f737df72.js.map",
+    "static/css/2.dec34a04.chunk.css": "/ademola/static/css/2.dec34a04.chunk.css",
+    "static/js/2.b3d1d107.chunk.js": "/ademola/static/js/2.b3d1d107.chunk.js",
+    "static/js/2.b3d1d107.chunk.js.map": "/ademola/static/js/2.b3d1d107.chunk.js.map",
+    "index.html": "/ademola/index.html",
+    "precache-manifest.6d410cc4ed0cbc2e5683f9f53f06000b.js": "/ademola/precache-manifest.6d410cc4ed0cbc2e5683f9f53f06000b.js",
+    "service-worker.js": "/ademola/service-worker.js",
+    "static/css/2.dec34a04.chunk.css.map": "/ademola/static/css/2.dec34a04.chunk.css.map",
+    "static/css/main.78bad890.chunk.css.map": "/ademola/static/css/main.78bad890.chunk.css.map",
+    "static/js/2.b3d1d107.chunk.js.LICENSE.txt": "/ademola/static/js/2.b3d1d107.chunk.js.LICENSE.txt",
+    "static/media/AdemolaCV.pdf": "/ademola/static/media/AdemolaCV.87d23507.pdf",
+    "static/media/Face-Detect-Capture.PNG": "/ademola/static/media/Face-Detect-Capture.6195e8d2.PNG",
+    "static/media/ProfilePic2.jpeg": "/ademola/static/media/ProfilePic2.f12fc94c.jpeg",
+    "static/media/Robofriends-capture.png": "/ademola/static/media/Robofriends-capture.453d09d5.png",
+    "static/media/bills-tracker-capture.PNG": "/ademola/static/media/bills-tracker-capture.515f7e6d.PNG",
+    "static/media/pixel-art-capture.PNG": "/ademola/static/media/pixel-art-capture.b77b0218.PNG",
+    "static/media/profile-photo-2.jpeg": "/ademola/static/media/profile-photo-2.494c3a91.jpeg",
+    "static/media/project-1.png": "/ademola/static/media/project-1.61e77e8b.png",
+    "static/media/project-2.png": "/ademola/static/media/project-2.0200e3a2.png",
+    "static/media/project-3.png": "/ademola/static/media/project-3.4e30dd1b.png",
+    "static/media/project-4.png": "/ademola/static/media/project-4.d08702b2.png",
+    "static/media/project-5.png": "/ademola/static/media/project-5.92f4e7b6.png",
+    "static/media/project-6.png": "/ademola/static/media/project-6.63205829.png",
+    "static/media/project-7.png": "/ademola/static/media/project-7.2fe6846b.png",
+    "static/media/store-checkout-capture.PNG": "/ademola/static/media/store-checkout-capture.89f63daa.PNG",
+    "static/media/the_weather_app_capture.PNG": "/ademola/static/media/the_weather_app_capture.c512c8b8.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f737df72.js",
+    "static/css/2.dec34a04.chunk.css",
+    "static/js/2.b3d1d107.chunk.js",
+    "static/css/main.78bad890.chunk.css",
+    "static/js/main.5d185aa8.chunk.js"
+  ]
+}
