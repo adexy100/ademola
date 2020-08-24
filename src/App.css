@@ -1,0 +1,285 @@
+/* CSSTransitions with React-Router   */
+.fade-appear,
+.fade-enter {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  position: absolute;
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.fade-exit {
+  position: absolute;
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+/* Custom styling over Bootsrap*/
+.footer {
+  flex-flow: column;
+  width: 100%;
+  margin: auto;
+
+}
+
+.navbar .textLink {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-fluid {
+  display: flex;
+  flex-flow: column;
+  margin: calc(60px + 1rem) 0 0 0;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.media {
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.media-body {
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.read-more {
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: rgb(32, 32, 32);
+  color: #0ccac4;
+}
+
+.navbar-nav {
+  font-size: 1.0rem;
+}
+
+.Home {
+  padding-top: 8vh;
+}
+
+.headline {
+  min-height: 100px;
+  color: #0ccac4;
+}
+
+.loop {
+  color: rgb(0 40 60);
+}
+
+.Home .headline, 
+.font{
+  font-size: 30px;
+}
+
+.navbar img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.Home img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.Home .media,
+.header {
+  border-top: 1px solid lightgray;
+}
+
+.project-block{
+  border-top: 1px solid lightgray;
+}
+
+.introduction {
+  margin: 5vh auto;
+}
+
+.About > .row:nth-child(even) .media h3 {
+  color: white;
+}
+
+.About > .row:nth-child(even) .media p {
+  color: light-green;
+}
+
+.About div > img {
+  width: 25vw;
+}
+
+.intro-image {
+  width: 15vw;
+}
+.intro-image:hover {
+  animation: app-logo-spin 0.5s ease-in-out;
+}
+
+.Testimonials {
+  width: 100%;
+}
+
+.App-logo:hover {
+  animation: app-logo-spin 0.5s ease-in-out;
+}
+
+.foot {
+  padding-bottom: 20px;
+}
+
+.social-Link {
+  animation: app-logo-spin 0.5s ease-in-out;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Small screen styles, width is set to iPhoneX width*/
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    padding: 0.5rem 0;
+  }
+
+  .navbar-nav {
+    font-size: 0.6rem;
+  }
+
+  .container-fluid {
+    margin: 40px;
+  }
+
+  .headline {
+    min-height: 290px;
+  }
+
+  .testimonial {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+
+  .media-body {
+    padding: 0 auto;
+  }
+
+  .media-image {
+    width: 100%;
+  }
+  .introduction {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+  }
+
+  .intro-image {
+    order: left;
+    width: 25vw;
+  }
+
+  .introduction {
+    margin-bottom: 0;
+  }
+
+  .about-block,
+  .footer {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+  .intro-image {
+    padding-top: 20px;
+  }
+
+  .About div > img {
+    order: center;
+    width: 20vw;
+    vertical-align: middle;
+    align-items: stretch;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .About > .row:nth-child(even) .media h3 {
+    font-size: 3vh;
+  }
+
+  .About > .row:nth-child(even) .media p {
+    font-size: 10px;
+  }
+
+  .project-block {
+    flex-flow: column;
+  }
+
+  .Home {
+    overflow: hidden;
+    max-width: 99%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .media {
+    width: 100%;
+  }
+
+  .x5,
+  .x6 {
+    white-space: normal;
+  }
+}
+
+/* Large screen styles */
+@media only screen and (min-width: 1025px) {
+  .about-block,
+  .footer {
+    width: 100%;
+    padding: 2rem 2rem;
+  }
+  .media {
+    width: 66%;
+  }
+  .media-image {
+    width: 50%;
+  }
+
+  .media-body {
+    width: 50%;
+  }
+
+  .Home {
+    width: 60%;
+  }
+
+  .Testimonials {
+    width: 66%;
+  }
+
+}
