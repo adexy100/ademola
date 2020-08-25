@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ademola/static/css/main.5fcdf99b.chunk.css",
-    "main.js": "/ademola/static/js/main.2e01a947.chunk.js",
-    "main.js.map": "/ademola/static/js/main.2e01a947.chunk.js.map",
+    "main.js": "/ademola/static/js/main.d7af4b9d.chunk.js",
+    "main.js.map": "/ademola/static/js/main.d7af4b9d.chunk.js.map",
     "runtime-main.js": "/ademola/static/js/runtime-main.f737df72.js",
     "runtime-main.js.map": "/ademola/static/js/runtime-main.f737df72.js.map",
     "static/css/2.dec34a04.chunk.css": "/ademola/static/css/2.dec34a04.chunk.css",
     "static/js/2.b3d1d107.chunk.js": "/ademola/static/js/2.b3d1d107.chunk.js",
     "static/js/2.b3d1d107.chunk.js.map": "/ademola/static/js/2.b3d1d107.chunk.js.map",
     "index.html": "/ademola/index.html",
-    "precache-manifest.1c4187eb155c820895a80c7577ee6e78.js": "/ademola/precache-manifest.1c4187eb155c820895a80c7577ee6e78.js",
+    "precache-manifest.2501060e7499b0ed80c69d26773f2c8b.js": "/ademola/precache-manifest.2501060e7499b0ed80c69d26773f2c8b.js",
     "service-worker.js": "/ademola/service-worker.js",
     "static/css/2.dec34a04.chunk.css.map": "/ademola/static/css/2.dec34a04.chunk.css.map",
     "static/css/main.5fcdf99b.chunk.css.map": "/ademola/static/css/main.5fcdf99b.chunk.css.map",
@@ -36,6 +36,6 @@
     "static/css/2.dec34a04.chunk.css",
     "static/js/2.b3d1d107.chunk.js",
     "static/css/main.5fcdf99b.chunk.css",
-    "static/js/main.2e01a947.chunk.js"
+    "static/js/main.d7af4b9d.chunk.js"
   ]
 }
