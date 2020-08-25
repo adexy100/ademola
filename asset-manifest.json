@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ademola/static/css/main.a1546925.chunk.css",
-    "main.js": "/ademola/static/js/main.ef6211d0.chunk.js",
-    "main.js.map": "/ademola/static/js/main.ef6211d0.chunk.js.map",
+    "main.css": "/ademola/static/css/main.b77a7bec.chunk.css",
+    "main.js": "/ademola/static/js/main.a7f81ce6.chunk.js",
+    "main.js.map": "/ademola/static/js/main.a7f81ce6.chunk.js.map",
     "runtime-main.js": "/ademola/static/js/runtime-main.f737df72.js",
     "runtime-main.js.map": "/ademola/static/js/runtime-main.f737df72.js.map",
     "static/css/2.dec34a04.chunk.css": "/ademola/static/css/2.dec34a04.chunk.css",
     "static/js/2.b3d1d107.chunk.js": "/ademola/static/js/2.b3d1d107.chunk.js",
     "static/js/2.b3d1d107.chunk.js.map": "/ademola/static/js/2.b3d1d107.chunk.js.map",
     "index.html": "/ademola/index.html",
-    "precache-manifest.08083f8d5e8a0cce59dea50f0da1b9cb.js": "/ademola/precache-manifest.08083f8d5e8a0cce59dea50f0da1b9cb.js",
+    "precache-manifest.403b509b7599156d795a79cd70bbde79.js": "/ademola/precache-manifest.403b509b7599156d795a79cd70bbde79.js",
     "service-worker.js": "/ademola/service-worker.js",
     "static/css/2.dec34a04.chunk.css.map": "/ademola/static/css/2.dec34a04.chunk.css.map",
-    "static/css/main.a1546925.chunk.css.map": "/ademola/static/css/main.a1546925.chunk.css.map",
+    "static/css/main.b77a7bec.chunk.css.map": "/ademola/static/css/main.b77a7bec.chunk.css.map",
     "static/js/2.b3d1d107.chunk.js.LICENSE.txt": "/ademola/static/js/2.b3d1d107.chunk.js.LICENSE.txt",
     "static/media/AdemolaCV.pdf": "/ademola/static/media/AdemolaCV.87d23507.pdf",
     "static/media/Face-Detect-Capture.PNG": "/ademola/static/media/Face-Detect-Capture.6195e8d2.PNG",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.f737df72.js",
     "static/css/2.dec34a04.chunk.css",
     "static/js/2.b3d1d107.chunk.js",
-    "static/css/main.a1546925.chunk.css",
-    "static/js/main.ef6211d0.chunk.js"
+    "static/css/main.b77a7bec.chunk.css",
+    "static/js/main.a7f81ce6.chunk.js"
   ]
 }
