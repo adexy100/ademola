@@ -33,19 +33,19 @@ const About = () => {
         </Row>
 
         <Row className="justify-content-center mb-5 col-12">
-          <Media className="justify-around bg-near-gray about-block border border-white rounded bg-dark">
+          <Media className="justify-around bg-near-gray about-block border border-white rounded bg-dark grow">
               <img className="grow"src={ProfilePic2} alt="Ademola" />
-            <Media.Body className="light-green grow">
+            <Media.Body className="pr2 light-green grow">
               <div className="">
                 <h3>I seek challenge...</h3>
               </div>
-              <p className="f6 light-green">
+              <p className="f5 light-green">
                 I see programming as one of the most challenging and rewarding
                 occupations. Through programming, I have the opportunity to
                 stretch my mind by completing intricate designs and functions
                 while simultaneously creating real value for people.
               </p>
-              <p className="f6 light-green">
+              <p className="f5 light-green">
                 As a professional, I am proud to have achieved a Bachelor Degree
                 in geology and mineral science. Also, I have completed series of 
                 web and mobile app development on Udemy where I have learned many 
@@ -62,7 +62,7 @@ const About = () => {
               <div className=" text-center ">
                 <h3 className="section-title">Skills</h3>
               </div>
-              <p className="f6 light-green grow">
+              <p className="f6 skills-font light-green grow">
                 I began programming in C and Fortran over 5 years ago as part of my 
                 degree in Geology and Mineral Science to compute geological data.
                 After graduation, I utilized PowerShell and SQL for scripting and 

@@ -64,9 +64,9 @@ class App extends React.Component {
                   {/* Website routes with specified url endings */}
                   <Route path="/About" component={About} />
                   <Route path="/Experience" component={Experience} />
-                  <Route path="/Contact" component={Contact} />
                   <Route path="/Projects" component={Projects} />
-                  <Route exact path="/" component={Home} />
+                  <Route path="/Contact" component={Contact} />
+                  <Route path="/" component={Home} />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>

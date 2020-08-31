@@ -18,7 +18,7 @@ const NavbarComponent = () => {
            </Link>
          </Navbar.Brand>
         <Nav className="largeNav pv3" variant="pills">
-          <Nav.Item className="m-auto grow">
+          <Nav.Item className="m-auto grow-large">
             <Link className="textLink" to="/">
               Home
             </Link>
@@ -55,7 +55,7 @@ const NavbarComponent = () => {
      <MediaQuery maxDeviceWidth={1024}>
          <Navbar.Brand>
            <Link to="/">
-             <img src={AdemolaLogo} className="App-logo" alt="logo" width="40" />
+             <img src={AdemolaLogo} className="App-logo" alt="logo" width="50" />
            </Link>
           </Navbar.Brand>
         <Nav className="mobileNav pv3" variant="pills">

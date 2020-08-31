@@ -31,7 +31,7 @@ class Contact extends Component {
       }
     }
 
-    fetch('https://api.emailjs.com/api/v1.0/email/send', {
+    fetch('https://formspree.io/xrgyvbvy', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
@@ -64,7 +64,7 @@ class Contact extends Component {
             <Media.Body className="portfolio-header text-center">
               <div>
                 Have a question for me? Contact me directly via
-                my <a className="red" href="mailto:windsor.bryan@gmail.com">email.</a>
+                my <a className="red" href="mailto:adexy100@gmail.com">email.</a>
                 <br />Want to discuss your next project with me? Just send me the details
                 using the form below.
               </div>
