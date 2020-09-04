@@ -1,11 +1,7 @@
 import React from 'react';
-import projectImage_1 from '../assets/project-1.png';
-import projectImage_2 from '../assets/project-2.png';
-import projectImage_3 from '../assets/project-3.png';
-import projectImage_4 from '../assets/project-4.png';
-import projectImage_5 from '../assets/project-5.png';
-import projectImage_6 from '../assets/project-6.png';
-import projectImage_7 from '../assets/project-7.png';
+import Robofriends from "../assets/Robofriends.png";
+import FaceImage from '../assets/Face-image.png';
+import Projects from '../assets/Projects.png';
 
 export const SKILLS = [
   {
@@ -163,60 +159,20 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    title: 'Eat Play Sleep',
-    description: 'Web app that records baby\'s activities',
-    image: projectImage_7,
-    skills: ['React', 'Styled-Components', 'Node', 'Express', 'PostgresQL', 'AWS', 'AWS S3', 'AWS EC2', 'AWS RDS'],
+    title: 'Face Detection App',
+    description: 'Detects faces in pictures. Built with React, Express, PostgreSql, Tachyons, and Clarifi API.',
+    image: FaceImage,
+    skills: ['React', 'Node', 'Express'],
     links: {
       website: 'http://www.epsapp0.com',
       github: 'https://github.com/adexy100/'
     }
   },
   {
-    title: 'Memory Game',
-    description: 'A simple memory game built with vanilla JavaScript',
-    image: projectImage_6,
+    title: 'Robofriends',
+    description: 'Fetch users data and search by name. Built with React and Redux.',
+    image: Robofriends,
     skills: ['HTML', 'CSS', 'JavaScript'],
-    links: {
-      website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/'
-    }
-  },
-  {
-    title: 'Employee Directory',
-    description: "Web app that helps to share employees contact information for fake startup company called 'Awesome Startup'.",
-    image: projectImage_5,
-    skills: ['HTML', 'CSS', 'JavaScript', 'RandomUser API'],
-    links: {
-      website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/'
-    }
-  },
-  {
-    title: 'Web App Dashboard',
-    description: 'a Dashboard page that has multiple widgets such as chart, social stats, members and activities.',
-    image: projectImage_4,
-    skills: ['HTML', 'CSS', 'JavaScript', 'chart.js', 'RandomUser API'],
-    links: {
-      website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/'
-    }
-  },
-  {
-    title: 'Interactive Video Player',
-    description: 'an HTML5 video player using JavaScript and the MediaElement.js',
-    image: projectImage_3,
-    skills: ['HTML', 'CSS', 'JavaScript', 'HTML5 Videos', 'MediaElement.js'],
-    links: {
-      website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/'
-    }
-  },
-  {
-    title: 'Style Guide',
-    description: 'a style guide using sass including partials, variables, extends, mixins, and BEM classes',
-    image: projectImage_2,
-    skills: ['HTML', 'Sass', 'BEM'],
     links: {
       website: 'https://github.com/adexy100/',
       github: 'https://github.com/adexy100/'
@@ -225,8 +181,48 @@ export const PROJECTS = [
   {
     title: 'Responsive Website',
     description: 'Simple mobile-first web page designed to function well on multiple screen sizes',
-    image: projectImage_1,
+    image: Projects,
     skills: ['HTML', 'CSS', 'Responsive Design'],
+    links: {
+      website: 'https://github.com/adexy100/',
+      github: 'https://github.com/adexy100/'
+    }
+  },
+  {
+    title: 'Payment Integration App',
+    description: "Loading...",
+    image: Projects,
+    skills: ['Loading...'],
+    links: {
+      website: 'https://github.com/adexy100/',
+      github: 'https://github.com/adexy100/'
+    }
+  },
+  {
+    title: 'Connect Me App',
+    description: 'Loading...',
+    image: Projects,
+    skills: ['Loading...'],
+    links: {
+      website: 'https://github.com/adexy100/',
+      github: 'https://github.com/adexy100/'
+    }
+  },
+  {
+    title: 'My Blog',
+    description: 'Loading...',
+    image: Projects,
+    skills: ['Loading...'],
+    links: {
+      website: 'https://github.com/adexy100/',
+      github: 'https://github.com/adexy100/'
+    }
+  },
+  {
+    title: 'Register/SignIn Profile',
+    description: 'Frontend and Backend projects',
+    image: Projects,
+    skills: ['React', 'Node', 'Express'],
     links: {
       website: 'https://github.com/adexy100/',
       github: 'https://github.com/adexy100/'

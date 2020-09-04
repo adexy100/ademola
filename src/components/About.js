@@ -17,7 +17,7 @@ const About = () => {
                 '歡迎光臨' means 'Welcome' in Chinese. Thanks for visiting my
                 website. If you are interested in finding out more about me, my
                 interests, projects, or skills, please browse around or feel free
-                to view my resume<br />
+                to view my resume to know more about me.<br />
                 <button className="button download-button grow" onClick={() => { window.open(Resume, '_blank') }}>
                   <span>Resume</span>
                   <div className="center download-icon w-30">
@@ -49,7 +49,7 @@ const About = () => {
                 As a professional, I am proud to have achieved a Bachelor Degree
                 in geology and mineral science. Also, I have completed series of 
                 web and mobile app development on Udemy where I have learned many 
-                computer languages such as; JavaScript, CSS, HTML, Java, 
+                computer languages such as; JavaScript, CSS, HTML, Dart, 
                 Python, SQL, and more.
               </p>
             </Media.Body>
@@ -65,13 +65,12 @@ const About = () => {
               <p className="f6 skills-font light-green grow">
                 I began programming in C and Fortran over 5 years ago as part of my 
                 degree in Geology and Mineral Science to compute geological data.
-                After graduation, I utilized PowerShell and SQL for scripting and 
-                reporting as a part of my job duties. Since then I have become deeply 
+                After graduation, I devoted some time to learn web and mobile development. Since then I have become deeply 
                 familiar with the Mern-stack, including React.js, Redux, JavaScript, 
-                HTML/CSS, Bootstrap, Node.js, Express, PostgreSQL, and MongoDB. 
+                HTML/CSS, Bootstrap, Node.js, Express, PostgreSQL, and MongoDB. Also, Flutter for mobile-app development.
                 You can see some of my work in my{" "}
-                <Link className="textLink red" to="/Experience">
-                  'Experience'
+                <Link className="textLink red" to="/Projects">
+                  'Projects'
                 </Link>{" "}
               </p>
               <Skills className="tc" />

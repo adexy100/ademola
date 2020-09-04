@@ -24,20 +24,20 @@ const Home = () => {
                 </TextLoop>
                 </p>
             </div>
-            <Media className="introduction">
-              <div className="content-center intro-image">
+            <Media className="introduction grow shadow-5">
+              <div className="intro-image">
                 <img src={ProfilePhoto} alt="Ademola Adewumi" />
               </div>
-              <Media.Body className="">
-                <p class="fw3 f5 light-green">
+              <Media.Body className="home-media">
+                <p class="fw3 f6 light-green">
                   I am a freelance Full-stack developer from Lagos, Nigeria. To learn
                   more about me, please click{" "}
-                  <Link className="textLink fw3 red" to="/About">
+                  <Link className="textLink fw1 red" to="/About">
                     'About'
                   </Link>{" "}
                   or check out my{" "}
-                  <Link className="textLink fw3 red" to="/Experience">
-                    'Experience'
+                  <Link className="textLink fw3 red" to="/Projects">
+                    'Projects'
                   </Link>{" "}
                   to see some of my work.
                 </p>
@@ -59,10 +59,8 @@ const Home = () => {
                 <div className=" fs-normal-m fw1 bg-near-gray">
                   <p className="pa3 fw3 f6 light-green">
                    <Testimonial
-                      expandTextLink={<span className="fw4 red">" Read more..."</span>}
                       firstSnippet={`I can help you zero in type of website that you want by asking the right questions.
                       This is where all the magic comes into play`}
-                      secondSnippet={` ...(Close.)`}
                     />
                   </p>
                 </div>
@@ -109,10 +107,8 @@ const Home = () => {
               <div className=" fs-normal-m fw1 bg-near-gray">
                 <p className="pa3 fw3 f6 light-green">
                  <Testimonial
-                  expandTextLink={<span className="fw4 red">" Read more..."</span>}
                   firstSnippet={`Now, we are almost done ! I can help you deploy the website so that your product is live on the 
                   World Wide Web for everyone to see and admire and USE !.`}
-                  secondSnippet={``}
                   />
                 </p>
               </div>

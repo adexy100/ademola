@@ -29,19 +29,14 @@ const NavbarComponent = () => {
             </Link>
           </Nav.Item>
           <Nav.Item className="m-auto grow-large">
-            <Link className="textLink" to="Experience">
-              Experience
+            <Link className="textLink" to="Projects">
+              Projects
             </Link>
           </Nav.Item>
           
           <Nav.Item className="m-auto grow-large">
             <Link className="textLink" onClick={() => { window.open(Resume, '_blank') }}>
               Resume
-            </Link>
-          </Nav.Item> 
-          <Nav.Item className="m-auto grow-large">
-            <Link className="textLink" to="/Projects">
-              Projects
             </Link>
           </Nav.Item> 
           <Nav.Item className="m-auto grow-large">
@@ -65,18 +60,13 @@ const NavbarComponent = () => {
             </Link>
           </Nav.Item>
           <Nav.Item className="m-auto grow">
-            <Link className="textLink" to="/Experience">
-              Experience
+            <Link className="textLink" to="/Projects">
+              Projects
             </Link>
           </Nav.Item>
           <Nav.Item className="m-auto grow">
             <Link className="textLink" onClick={() => { window.open(Resume, '_blank') }}>
               Resume
-            </Link>
-          </Nav.Item>
-          <Nav.Item className="m-auto grow-large">
-            <Link className="textLink w-50" to="/Projects">
-              Projects
             </Link>
           </Nav.Item>
           <Nav.Item className="m-auto grow">

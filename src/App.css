@@ -25,6 +25,7 @@
 }
 
 /* Custom styling over Bootsrap*/
+
 .footer {
   flex-flow: column;
   width: 100%;
@@ -82,7 +83,6 @@ a:hover {
   color: rgb(0 40 60);
 }
 
-.Home .headline, 
 .font{
   font-size: 30px;
 }
@@ -97,9 +97,15 @@ a:hover {
   max-width: 100%;
 }
 
-.Home .media,
-.header {
-  border-top: 1px solid lightgray;
+.Home .media {
+  border-top: 1px solid rgb(0 40 60);
+  border-left: 10px solid rgb(0 50 60);
+  border-right: 1px solid rgb(0 40 60);
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom: 10px solid rgb(0 40 60);
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .project-block{
@@ -123,7 +129,8 @@ a:hover {
 }
 
 .intro-image {
-  width: 15vw;
+  width: 13vw;
+  padding-left: 10px;
 }
 
 .intro-image:hover {
@@ -171,6 +178,11 @@ a:hover {
     padding-top: 55px;
   }
 
+  .project{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
   .headline {
     min-height: 305px;
     padding-top: 20px; 
@@ -184,6 +196,11 @@ a:hover {
     align-items: flex-start;
   }
 
+  .home-media{
+    padding: 0 0 0 1rem;
+    font-family: Georgia;
+  }
+
   .media-body {
     padding: 0 auto;
   }
@@ -191,11 +208,11 @@ a:hover {
   .media-image {
     width: 100%;
   }
+
   .introduction {
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    align-items: center;
   }
 
   .intro-image {

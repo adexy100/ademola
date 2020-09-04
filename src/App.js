@@ -5,7 +5,6 @@ import NavbarComponent from "./components/NavbarComponent";
 import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import './styles/index.scss';
@@ -63,7 +62,6 @@ class App extends React.Component {
                 <Switch location={location}>
                   {/* Website routes with specified url endings */}
                   <Route path="/About" component={About} />
-                  <Route path="/Experience" component={Experience} />
                   <Route path="/Projects" component={Projects} />
                   <Route path="/Contact" component={Contact} />
                   <Route path="/" component={Home} />
