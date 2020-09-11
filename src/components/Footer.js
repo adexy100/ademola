@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
         </span>
          <span className="social-Link">
-          <a href="https://www.twitter.com/herdeyymola/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.twitter.com/adewumi_demola/" target="_blank" rel="noopener noreferrer">
             <img className="p-2 grow-large" src={twitterIcon} alt="twitter Profile" />
           </a>
         </span>

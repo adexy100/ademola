@@ -25,7 +25,7 @@ class App extends React.Component {
           setTimeout(() => {
             // remove from DOM
             ele.outerHTML = "";
-          }, 500);
+          }, 3000);
         }
           window.addEventListener('scroll', () => {
             const sectionTitles = document.querySelectorAll('.section-title');
