@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/ademola/static/css/main.2c6206f1.chunk.css",
-    "main.js": "/ademola/static/js/main.6c667691.chunk.js",
-    "main.js.map": "/ademola/static/js/main.6c667691.chunk.js.map",
+    "main.css": "/ademola/static/css/main.9233392f.chunk.css",
+    "main.js": "/ademola/static/js/main.7b733da7.chunk.js",
+    "main.js.map": "/ademola/static/js/main.7b733da7.chunk.js.map",
     "runtime-main.js": "/ademola/static/js/runtime-main.f737df72.js",
     "runtime-main.js.map": "/ademola/static/js/runtime-main.f737df72.js.map",
     "static/css/2.dec34a04.chunk.css": "/ademola/static/css/2.dec34a04.chunk.css",
-    "static/js/2.229a6a56.chunk.js": "/ademola/static/js/2.229a6a56.chunk.js",
-    "static/js/2.229a6a56.chunk.js.map": "/ademola/static/js/2.229a6a56.chunk.js.map",
+    "static/js/2.38dfbf9a.chunk.js": "/ademola/static/js/2.38dfbf9a.chunk.js",
+    "static/js/2.38dfbf9a.chunk.js.map": "/ademola/static/js/2.38dfbf9a.chunk.js.map",
     "index.html": "/ademola/index.html",
-    "precache-manifest.44d6af33f63c3637bf40e26c3aecc531.js": "/ademola/precache-manifest.44d6af33f63c3637bf40e26c3aecc531.js",
+    "precache-manifest.af09a6fba8ccfa4e7ec832d740b6eea1.js": "/ademola/precache-manifest.af09a6fba8ccfa4e7ec832d740b6eea1.js",
     "service-worker.js": "/ademola/service-worker.js",
     "static/css/2.dec34a04.chunk.css.map": "/ademola/static/css/2.dec34a04.chunk.css.map",
-    "static/css/main.2c6206f1.chunk.css.map": "/ademola/static/css/main.2c6206f1.chunk.css.map",
-    "static/js/2.229a6a56.chunk.js.LICENSE.txt": "/ademola/static/js/2.229a6a56.chunk.js.LICENSE.txt",
+    "static/css/main.9233392f.chunk.css.map": "/ademola/static/css/main.9233392f.chunk.css.map",
+    "static/js/2.38dfbf9a.chunk.js.LICENSE.txt": "/ademola/static/js/2.38dfbf9a.chunk.js.LICENSE.txt",
     "static/media/AdemolaCV.pdf": "/ademola/static/media/AdemolaCV.87d23507.pdf",
-    "static/media/Face-image.png": "/ademola/static/media/Face-image.c6654f17.png",
+    "static/media/Face-image.png": "/ademola/static/media/Face-image.00683d2e.png",
     "static/media/ProfilePic2.jpeg": "/ademola/static/media/ProfilePic2.f12fc94c.jpeg",
-    "static/media/Projects.png": "/ademola/static/media/Projects.346416c2.png",
-    "static/media/Robofriends.png": "/ademola/static/media/Robofriends.e84c6659.png",
+    "static/media/Projects.png": "/ademola/static/media/Projects.5d928152.png",
+    "static/media/Robofriends.png": "/ademola/static/media/Robofriends.ff85becb.png",
     "static/media/profile-photo-2.jpeg": "/ademola/static/media/profile-photo-2.494c3a91.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.f737df72.js",
     "static/css/2.dec34a04.chunk.css",
-    "static/js/2.229a6a56.chunk.js",
-    "static/css/main.2c6206f1.chunk.css",
-    "static/js/main.6c667691.chunk.js"
+    "static/js/2.38dfbf9a.chunk.js",
+    "static/css/main.9233392f.chunk.css",
+    "static/js/main.7b733da7.chunk.js"
   ]
 }
