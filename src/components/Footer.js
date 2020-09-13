@@ -1,9 +1,9 @@
 import React from "react";
-import GithubLogo from "../assets/GitHub-Mark-32px.png";
-import LinkedinLogo from "../assets/Linkedin-Mark-32px.png";
-import GmailLogo from "../assets/Gmail-Mark-32px.png";
-import instaIcon from "../assets/instaIcon.png";
-import twitterIcon from "../assets/twitterIcon.png";
+import GithubLogo from "../assets/github.png";
+import LinkedinLogo from "../assets/linkedin.png";
+import GmailLogo from "../assets/gmail.png";
+import instaIcon from "../assets/insta.png";
+import twitterIcon from "../assets/twitter.png";
 
 const Footer = () => {
   return (

@@ -182,7 +182,7 @@ export const PROJECTS = [
     title: 'Responsive Website',
     description: 'Simple mobile-first web page designed to function well on multiple screen sizes',
     image: Projects,
-    skills: ['HTML', 'CSS', 'Responsive Design'],
+    skills: ['Responsive Design'],
     links: {
       website: 'https://github.com/adexy100/',
       github: 'https://github.com/adexy100/'

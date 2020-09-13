@@ -32,7 +32,7 @@
 
 .project {
 	width: 90%;
-	height: 95%;
+	height: 90%;
 	position: relative;
 	cursor: pointer;
   perspective: 900px;
@@ -65,7 +65,7 @@
   }
 
   .project-info-front {
-    background-size: contain;
+    background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -86,7 +86,6 @@
   .project-info-back {
     box-shadow: inset 0 0 0 16px rgba(white, 0.3);
     transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
-    background: rgba($primary-color, 0.7);
     padding: 1.5rem;
     opacity: 0;
     display: flex;
