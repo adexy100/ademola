@@ -24,13 +24,13 @@ const Home = () => {
                 </TextLoop>
                 </p>
             </div>
-            <Media className="introduction grow shadow-5">
+            <Media className="introduction shadow-5">
               <div className="intro-image">
                 <img src={ProfilePhoto} alt="Ademola Adewumi" />
               </div>
               <Media.Body className="home-media">
                 <p class="fw3 f6 light-green">
-                  I am a freelance Full-stack developer from Lagos, Nigeria. To learn
+                  I am a Full-stack developer from Lagos, Nigeria. To learn
                   more about me, please click{" "}
                   <Link className="textLink fw5 red" to="/About">
                     'About'
@@ -46,26 +46,9 @@ const Home = () => {
 
              <div className="header">
                 <h3 className="monospace tc ph4 fw4 black mv3">
-                  WHAT I CAN DO
+                  WHAT I DO
                 </h3>
-                <h2 className="normal light-green fw4 tc f5 shadow-4">
-                  I can design and develop a website for you that renders well across all the browsers. Here is a brief description
-                  of what i do.
-                </h2>
-              </div>
-              <br />            
-              <article className="grow">
-                <h1 className="f4 bg-light-blue br3 br--top black-60 mv0 pv2 ph3">Planning</h1>
-                <div className=" fs-normal-m fw1 bg-near-gray">
-                  <p className="pa3 fw3 f6 light-green">
-                   <Testimonial
-                      firstSnippet={`I can help you zero in type of website that you want by asking the right questions.
-                      This is where all the magic comes into play`}
-                    />
-                  </p>
-                </div>
-                <br />
-              </article>
+              </div>          
               <article className="grow">
                 <h1 className="f4 bg-light-blue br3 br--top black-60 mv0 pv2 ph3">Web Development</h1>
                 <div className=" fs-normal-m fw1 bg-near-gray">
@@ -76,9 +59,9 @@ const Home = () => {
                       attention has to be paid to all of the facets involved in presenting the message. The most important 
                       of these is the effective targeting of both the message and the consumers of that message.`}
                       secondSnippet={`If you are considering developing an Internet website for your company, enhancing 
-                      your existing one, or developing an Intranet or Extranet site, please contact me for some of those ideas.
+                      your existing one, please contact me for some of those ideas.
                       Now I use my Web development skills to develop your website. This is when I convert design into code.
-                      Skills : HTML5, CSS3, Javascript, Bootstrap, jQuery, Git, MongoDB, Express, ReactJS, NodeJS. (Close...)`}
+                      Skills : HTML5, CSS3, Javascript, Bootstrap, jQuery, Git, MongoDB, Express, ReactJS, NodeJS.`}
                     />
                   </p>
                 </div>

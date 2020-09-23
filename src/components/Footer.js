@@ -19,11 +19,6 @@ const Footer = () => {
             <img className="p-2 grow-large" src={GithubLogo} alt="Github Profile" />
           </a>
         </span>
-        <span className="social-Link">
-          <a href="mailto:adexy100@gmail.com?subject=Developer Opportunity">
-            <img className="p-2 grow-large" src={GmailLogo} alt="Gmail" />
-          </a>
-        </span>
          <span className="social-Link">
           <a href="https://www.twitter.com/adewumi_demola/" target="_blank" rel="noopener noreferrer">
             <img className="p-2 grow-large" src={twitterIcon} alt="twitter Profile" />
