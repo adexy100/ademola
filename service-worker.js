@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ademola/precache-manifest.30474254a6ed362e265eb585bd421297.js"
+  "/ademola/precache-manifest.ab619f78880b90bbeff445fea582cc1a.js"
 );
 
 self.addEventListener('message', (event) => {
