@@ -274,6 +274,12 @@ a:hover {
     width: 100%;
     padding: 2rem 2rem;
   }
+
+  .contact,
+  .footer {
+    padding-bottom: 8rem;
+  }
+
   .media {
     width: 66%;
   }

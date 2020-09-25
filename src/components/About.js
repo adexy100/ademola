@@ -3,6 +3,7 @@ import { Container, Row, Media } from "react-bootstrap";
 import ProfilePic2 from "../assets/ProfilePic2.jpeg";
 import { Link } from "react-router-dom";
 import Skills from '../components/Skills';
+import Footer from "../components/Footer";
 import Resume from "../assets/AdemolaCV.pdf";
 
 const About = () => {
@@ -78,6 +79,7 @@ const About = () => {
           </Media>
         </Row>
       </Container>  
+      <Footer />
     </div>
   );
 };

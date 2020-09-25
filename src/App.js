@@ -4,7 +4,6 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import NavbarComponent from "./components/NavbarComponent";
 import Home from "./components/Home";
 import About from "./components/About";
-import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import './styles/index.scss';
@@ -27,17 +26,21 @@ class App extends React.Component {
             ele.outerHTML = "";
           }, 500);
         }
-          window.addEventListener('scroll', () => {
-            const sectionTitles = document.querySelectorAll('.section-title');
-            const skillsList = document.querySelectorAll('.skills-list li');
-            const projectList = document.querySelectorAll('.project-list li');
-            const socialLinks = document.querySelectorAll('.social-links a');
+      });
+    }
+    
+    componentDidMount() {
 
-            sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle));
-            skillsList.forEach(li => this.toggleDisplay(li));
-            projectList.forEach(li => this.toggleDisplay(li));
-            socialLinks.forEach(link => this.toggleDisplay(link));
-          });
+      window.addEventListener('scroll', () => {
+        const sectionTitles = document.querySelectorAll('.section-title');
+        const skillsList = document.querySelectorAll('.skills-list li');
+        const projectList = document.querySelectorAll('.project-list li');
+        const socialLinks = document.querySelectorAll('.social-links a');
+
+        sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle));
+        skillsList.forEach(li => this.toggleDisplay(li));
+        projectList.forEach(li => this.toggleDisplay(li));
+        socialLinks.forEach(link => this.toggleDisplay(link));
       });
     }
 
@@ -70,7 +73,6 @@ class App extends React.Component {
             </TransitionGroup>
           )}
         />
-        <Footer className="fixed" />
       </div>      
     );
   }
