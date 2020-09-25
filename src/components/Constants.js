@@ -197,7 +197,7 @@ export const PROJECTS = [
     image: Robofriends,
     skills: ['HTML', 'CSS', 'JavaScript'],
     links: {
-      website: 'https://github.com/adexy100/',
+      website: 'https://adexy100.github.io/Robofriends/',
       github: 'https://github.com/adexy100/Robofriends'
     }
   },
@@ -207,18 +207,18 @@ export const PROJECTS = [
     image: Projects,
     skills: ['HTML', 'CSS'],
     links: {
-      website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/'
+      website: 'https://adexy100.github.io/Responsive-Website/',
+      github: 'https://github.com/adexy100/Responsive-Website'
     }
   },
   {
-    title: 'Payment Integration App',
-    description: "A simple Payment App",
+    title: 'Payment Integration in React',
+    description: "React-Stripe Payment",
     image: Projects,
-    skills: ['Loading...'],
+    skills: ['Stripe', 'React', 'Express'],
     links: {
       website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/'
+      github: 'https://github.com/adexy100/Payment-App'
     }
   },
   {
@@ -228,7 +228,7 @@ export const PROJECTS = [
     skills: ['React', 'Express', 'MongoDB'],
     links: {
       website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/'
+      github: 'https://github.com/adexy100/Ecommerce'
     }
   },
   {
@@ -238,7 +238,7 @@ export const PROJECTS = [
     skills: ['JavaScript', 'HTML', 'CSS'],
     links: {
       website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/'
+      github: 'https://github.com/adexy100/Sample-Blog'
     }
   },
   {

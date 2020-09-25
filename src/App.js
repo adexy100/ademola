@@ -64,7 +64,7 @@ class App extends React.Component {
                   <Route path="/About" component={About} />
                   <Route path="/Projects" component={Projects} />
                   <Route path="/Contact" component={Contact} />
-                  <Route path="/" component={Home} />
+                  <Route exact path="/" component={Home} />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>
