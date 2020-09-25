@@ -24,13 +24,14 @@ class Skills extends Component {
       });
     });
   }
-      toggleDisplay = element => {
-      if (element.offsetTop - window.scrollY - window.innerHeight < 0) {
-        element.classList.add('show');
-      } else {
-        element.classList.remove('show');
-      }
+  
+  toggleDisplay = element => {
+    if (element.offsetTop - window.scrollY - window.innerHeight < 0) {
+      element.classList.add('show');
+    } else {
+      element.classList.remove('show');
     }
+  }
 
   renderSkills = skills => {
     return skills.map(({ title, logo, point }) => {

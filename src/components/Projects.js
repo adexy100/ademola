@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Project from './Project';
 import { Row, Media } from "react-bootstrap";
-import Footer from "../components/Footer";
 import GithubLogo from "../assets/GitHub-Mark-32px.png";
 import LinkedinLogo from "../assets/Linkedin-Mark-32px.png";
 import GmailLogo from "../assets/Gmail-Mark-32px.png";
@@ -23,57 +22,54 @@ class Projects extends Component {
     projectList.forEach(li => this.toggleDisplay(li));
     sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle)); 
     return (
-      <div>
-        <section id="projects" className="pv5">
-          <Row className="justify-content-center">
-            <Media className="light-green">
-              <Media.Body className="portfolio-header f6 text-center">
-                <div>
-                  Thank you for your interest in learning about my work! Feel free
-                  to{" "}
-                      <Link className="textLink red" to="/Contact">
-                        contact
-                      </Link>{" "} me.
-                  <div className="contact">
-                    <span>
-                      <a href="https://www.linkedin.com/in/ademola-adewumi-9096b4186/" target="_blank" rel="noopener noreferrer">
-                        <img
-                          className="p-2"
-                          src={LinkedinLogo}
-                          alt="Linkedin Profile"
-                        />
-                      </a>
-                    </span>
-                    <span>
-                      <a href="https://github.com/adexy100" target="_blank" rel="noopener noreferrer">
-                        <img
-                          className="p-2"
-                          src={GithubLogo}
-                          alt="Github Profile"
-                        />
-                      </a>
-                    </span>
-                    <span>
-                      <a href="mailto:adexy100@gmail.com?subject=Developer Opportunity">
-                        <img className="p-2" src={GmailLogo} alt="Gmail" />
-                      </a>
-                    </span>
-                  </div>
+      <section id="projects" className="pv5">
+        <Row className="justify-content-center">
+          <Media className="light-green">
+            <Media.Body className="portfolio-header f6 text-center">
+              <div>
+                Thank you for your interest in learning about my work! Feel free
+                to{" "}
+                    <Link className="textLink red" to="/Contact">
+                      contact
+                    </Link>{" "} me.
+                <div className="contact">
+                  <span>
+                    <a href="https://www.linkedin.com/in/ademola-adewumi-9096b4186/" target="_blank" rel="noopener noreferrer">
+                      <img
+                        className="p-2"
+                        src={LinkedinLogo}
+                        alt="Linkedin Profile"
+                      />
+                    </a>
+                  </span>
+                  <span>
+                    <a href="https://github.com/adexy100" target="_blank" rel="noopener noreferrer">
+                      <img
+                        className="p-2"
+                        src={GithubLogo}
+                        alt="Github Profile"
+                      />
+                    </a>
+                  </span>
+                  <span>
+                    <a href="mailto:adexy100@gmail.com?subject=Developer Opportunity">
+                      <img className="p-2" src={GmailLogo} alt="Gmail" />
+                    </a>
+                  </span>
                 </div>
-              </Media.Body>
-            </Media>
-          </Row>
-          <ul className="project-list">
-            {PROJECTS.map(project => (
-              <Project 
-                key={project.title}
-                project={project}
-              />
-            ))}
-          </ul>
-        </section>
-        <Footer/>
-      </div>
+              </div>
+            </Media.Body>
+          </Media>
+        </Row>
+        <ul className="project-list">
+          {PROJECTS.map(project => (
+            <Project 
+              key={project.title}
+              project={project}
+            />
+          ))}
+        </ul>
+      </section>
     );
   }  
 };
