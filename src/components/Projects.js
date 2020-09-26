@@ -60,7 +60,8 @@ class Projects extends Component {
               </div>
             </Media.Body>
           </Media>
-          <ul className="project-list">
+        </Row>
+        <ul className="project-list">
             {PROJECTS.map(project => (
               <Project 
                 key={project.title}
@@ -68,7 +69,6 @@ class Projects extends Component {
               />
             ))}
           </ul>
-        </Row>
       </section>
     );
   }  
