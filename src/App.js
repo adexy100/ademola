@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import NavbarComponent from "./components/NavbarComponent";
 import Home from "./components/Home";
@@ -33,14 +33,12 @@ class App extends React.Component {
       const sectionTitles = document.querySelectorAll('.section-title');
       const skillsList = document.querySelectorAll('.skills-list li');
       const projectList = document.querySelectorAll('.project-list li');
-      const socialLinks = document.querySelectorAll('.social-links a');
 
       sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle));
       skillsList.forEach(li => this.toggleDisplay(li));
       projectList.forEach(li => this.toggleDisplay(li));
-      socialLinks.forEach(link => this.toggleDisplay(link));
     });
-  }
+  };
 
   toggleDisplay = element => {
     if (element.offsetTop - window.scrollY - window.innerHeight < 0) {
@@ -60,21 +58,27 @@ class App extends React.Component {
             <TransitionGroup>
               {/* React router transitions */}
               <CSSTransition key={location.key} classNames="fade" timeout={300}>
-                <Switch location={location}>
-                  {/* Website routes with specified url endings */}
-                  <Route path="/About" component={About} />
-                  <Route path="/Projects" component={Projects} />
-                  <Route path="/Contact" component={Contact} />
-                  <Route exact path="/" component={Home} />
-                </Switch>
+                  <Switch location={location}>
+                    {/* Website routes with specified url endings */}
+                    <Route exact path="/">
+                      <Home />
+                    </Route>
+                    <Route path="/about">
+                      <About />
+                    </Route>
+                    <Route path="/projects" component={Projects} />
+                    <Route path="/contact">
+                      <Contact />
+                    </Route>
+                  </Switch>
               </CSSTransition>
             </TransitionGroup>
           )}
         />
-        <Footer className="fixed" />
+        <Footer />
       </div>      
     );
   }
-}
+};
 
 export default App;

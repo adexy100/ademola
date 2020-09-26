@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1254066a.chunk.css",
+    "main.js": "/static/js/main.5fd19ba9.chunk.js",
+    "main.js.map": "/static/js/main.5fd19ba9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b126251.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
+    "static/css/2.dec34a04.chunk.css": "/static/css/2.dec34a04.chunk.css",
+    "static/js/2.30f54773.chunk.js": "/static/js/2.30f54773.chunk.js",
+    "static/js/2.30f54773.chunk.js.map": "/static/js/2.30f54773.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c6c59a243e0a370e8a049b9f97fd4a8a.js": "/precache-manifest.c6c59a243e0a370e8a049b9f97fd4a8a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.dec34a04.chunk.css.map": "/static/css/2.dec34a04.chunk.css.map",
+    "static/css/main.1254066a.chunk.css.map": "/static/css/main.1254066a.chunk.css.map",
+    "static/js/2.30f54773.chunk.js.LICENSE.txt": "/static/js/2.30f54773.chunk.js.LICENSE.txt",
+    "static/media/AdemolaCV.pdf": "/static/media/AdemolaCV.87d23507.pdf",
+    "static/media/Face-image.png": "/static/media/Face-image.00683d2e.png",
+    "static/media/ProfilePic2.jpeg": "/static/media/ProfilePic2.f12fc94c.jpeg",
+    "static/media/Projects.png": "/static/media/Projects.5d928152.png",
+    "static/media/Robofriends.png": "/static/media/Robofriends.ff85becb.png",
+    "static/media/profile-photo-2.jpeg": "/static/media/profile-photo-2.494c3a91.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b126251.js",
+    "static/css/2.dec34a04.chunk.css",
+    "static/js/2.30f54773.chunk.js",
+    "static/css/main.1254066a.chunk.css",
+    "static/js/main.5fd19ba9.chunk.js"
+  ]
+}

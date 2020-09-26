@@ -1,7 +1,6 @@
 import React from "react";
 import GithubLogo from "../assets/github.png";
 import LinkedinLogo from "../assets/linkedin.png";
-import GmailLogo from "../assets/gmail.png";
 import instaIcon from "../assets/insta.png";
 import twitterIcon from "../assets/twitter.png";
 

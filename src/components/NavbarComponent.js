@@ -24,12 +24,12 @@ const NavbarComponent = () => {
             </Link>
           </Nav.Item>
           <Nav.Item className="m-auto grow-large">
-            <Link className="textLink" to="/About">
+            <Link className="textLink" to="/about">
               About
             </Link>
           </Nav.Item>
           <Nav.Item className="m-auto grow-large">
-            <Link className="textLink" to="Projects">
+            <Link className="textLink" to="projects">
               Projects
             </Link>
           </Nav.Item>
@@ -40,7 +40,7 @@ const NavbarComponent = () => {
             </Link>
           </Nav.Item> 
           <Nav.Item className="m-auto grow-large">
-            <Link className="textLink" to="/Contact">
+            <Link className="textLink" to="/contact">
               Contact
             </Link>
           </Nav.Item>  
@@ -55,12 +55,12 @@ const NavbarComponent = () => {
           </Navbar.Brand>
         <Nav className="mobileNav pv3" variant="pills">
           <Nav.Item className="m-auto grow">
-            <Link className="textLink" to="/About">
+            <Link className="textLink" to="/about">
               About
             </Link>
           </Nav.Item>
           <Nav.Item className="m-auto grow">
-            <Link className="textLink" to="/Projects">
+            <Link className="textLink" to="/projects">
               Projects
             </Link>
           </Nav.Item>
@@ -70,7 +70,7 @@ const NavbarComponent = () => {
             </Link>
           </Nav.Item>
           <Nav.Item className="m-auto grow">
-            <Link className="textLink" to="/Contact">
+            <Link className="textLink" to="/contact">
               Contact
             </Link>
           </Nav.Item> 

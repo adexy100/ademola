@@ -8,19 +8,18 @@ import { Link } from "react-router-dom";
 import { PROJECTS } from '../components/Constants';
 
 class Projects extends Component {
-      toggleDisplay = element => {
-      if (element.offsetTop - window.scrollY - window.innerHeight < 0) {
-        element.classList.add('show');
-      } else {
-        element.classList.remove('show');
-      }
+  toggleDisplay = element => {
+    if (element.offsetTop - window.scrollY - window.innerHeight < 0) {
+      element.classList.add('show');
+    } else {
+      element.classList.remove('show');
     }
+  }
 
   render () {
     const projectList = document.querySelectorAll('.project-list li');
-    const sectionTitles = document.querySelectorAll('.section-title');
-    projectList.forEach(li => this.toggleDisplay(li));
-    sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle)); 
+    projectList.forEach(li => this.toggleDisplay(li)); 
+
     return (
       <section id="projects" className="pv5">
         <Row className="justify-content-center">

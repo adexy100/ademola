@@ -12,12 +12,12 @@ const About = () => {
         <Media className="about-header text-center">
           <Media.Body className="">
             <h1 className="dark-red">歡迎光臨!</h1>
-            <div className="light-green">
+            <div className="f6 light-green">
               '歡迎光臨' means 'Welcome' in Chinese. Thanks for visiting my
               website. If you are interested in finding out more about me, my
               interests, projects, or skills, please browse around or feel free
               to view my resume to know more about me.<br />
-              <button className="button download-button grow" onClick={() => { window.open(Resume, '_blank') }}>
+              <button className="f6 button download-button grow" onClick={() => { window.open(Resume, '_blank') }}>
                 <span>Resume</span>
                 <div className="center download-icon w-30">
                   <svg version="1.1" viewBox="0 0 128 128">
@@ -38,13 +38,13 @@ const About = () => {
             <div className="">
               <h3>I seek challenge...</h3>
             </div>
-            <p className="f5 light-green">
+            <p className="f6 light-green">
               I see programming as one of the most challenging and rewarding
               occupations. Through programming, I have the opportunity to
               stretch my mind by completing intricate designs and functions
               while simultaneously creating real value for people.
             </p>
-            <p className="f5 light-green">
+            <p className="f6 light-green">
               As a professional, I am proud to have achieved a Bachelor Degree
               in geology and mineral science. Also, I have completed series of 
               web and mobile app development on Udemy where I have learned many 
