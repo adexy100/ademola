@@ -60,15 +60,15 @@ class Projects extends Component {
               </div>
             </Media.Body>
           </Media>
+          <ul className="project-list">
+            {PROJECTS.map(project => (
+              <Project 
+                key={project.title}
+                project={project}
+              />
+            ))}
+          </ul>
         </Row>
-        <ul className="project-list">
-          {PROJECTS.map(project => (
-            <Project 
-              key={project.title}
-              project={project}
-            />
-          ))}
-        </ul>
       </section>
     );
   }  
