@@ -52,7 +52,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <NavbarComponent bg="dark" />
+        <NavbarComponent />
         <Route
           render={({ location }) => (
             <TransitionGroup>
