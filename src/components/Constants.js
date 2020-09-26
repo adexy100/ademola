@@ -187,7 +187,7 @@ export const PROJECTS = [
     image: FaceImage,
     skills: ['React', 'Node', 'Express'],
     links: {
-      website: 'http://www.epsapp0.com',
+      website: 'http://www.epsap.com',
       github: 'https://github.com/adexy100/Face-App'
     }
   },
