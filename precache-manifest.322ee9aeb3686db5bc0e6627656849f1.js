@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a2b7e3bc6d79266cefeed0a32dab6a0",
+    "revision": "94a9b19676c0a9d5bd8cf5aa796de981",
     "url": "/ademola/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ademola/static/css/2.dec34a04.chunk.css"
   },
   {
-    "revision": "62aabd6911547939874b",
+    "revision": "c7f654f1492e4139a2f2",
     "url": "/ademola/static/css/main.1254066a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ademola/static/js/2.0052803b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "62aabd6911547939874b",
-    "url": "/ademola/static/js/main.1dfdae5f.chunk.js"
+    "revision": "c7f654f1492e4139a2f2",
+    "url": "/ademola/static/js/main.7bdb118e.chunk.js"
   },
   {
     "revision": "4c8a29ed435c147677c6",
