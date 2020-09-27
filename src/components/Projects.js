@@ -62,7 +62,7 @@ class Projects extends Component {
         </Row>
         <ul className="project-list">
             {PROJECTS.map(project => (
-              <Project 
+              <Project wrappedComponentRef={c => (this.component = c)} 
                 key={project.title}
                 project={project}
               />

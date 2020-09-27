@@ -72,7 +72,7 @@ const About = () => {
                 'Projects'
               </Link>{" "}
             </p>
-            <Skills className="tc" />
+            <Skills.WrappedComponent location={{}} />
           </Media.Body>
         </Media>
       </Row>

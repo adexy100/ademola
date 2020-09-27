@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from "react-router-dom";
 
 const Project = ({ project }) => {
   
@@ -52,4 +53,4 @@ const Project = ({ project }) => {
   )
 }
 
-export default Project;
+export default withRouter(Project);

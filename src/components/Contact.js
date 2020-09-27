@@ -107,7 +107,7 @@ class Contact extends Component {
               <div className="modal">
                 {sending ? (
                   <div className="modal--sending">
-                    <Spinner />
+                    <Spinner wrappedComponentRef={c => (this.component = c)} />
                     <p>Sending message...</p>
                   </div>
                 ) : status === 'success' ? (

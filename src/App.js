@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import NavbarComponent from "./components/NavbarComponent";
 import Home from "./components/Home";
@@ -15,7 +15,9 @@ class App extends React.Component {
   authenticate() {
     return new Promise((resolve) => setTimeout(resolve, 500));
   }
-
+  componentDidMount() {
+    this.component.doSomething();
+  }
   componentDidMount() {
     this.authenticate().then(() => {
       const ele = document.getElementById("ipl-progress-indicator");
@@ -60,16 +62,10 @@ class App extends React.Component {
               <CSSTransition key={location.key} classNames="fade" timeout={300}>
                   <Switch location={location}>
                     {/* Website routes with specified url endings */}
-                    <Route exact path="/">
-                      <Home />
-                    </Route>
-                    <Route path="/about">
-                      <About />
-                    </Route>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/about" component={About} />
                     <Route path="/projects" component={Projects} />
-                    <Route path="/contact">
-                      <Contact />
-                    </Route>
+                   <Route path="/contact" component={Contact} />
                   </Switch>
               </CSSTransition>
             </TransitionGroup>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { SKILLS } from '../components/Constants';
+import { withRouter } from "react-router-dom";
 
 class Skills extends Component {
   componentDidMount() {
@@ -77,4 +78,4 @@ class Skills extends Component {
   }
 }
 
-export default Skills;
+export default withRouter(Skills);
