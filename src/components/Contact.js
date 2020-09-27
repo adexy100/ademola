@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Spinner from '../components/Spinner';
 import { Container, Row, Media } from "react-bootstrap";
 
 class Contact extends Component {
@@ -22,8 +21,8 @@ class Contact extends Component {
     const { name, email, message } = this.state;
     const data = {
       service_id: process.env.default_service,
-      template_id: process.env.template_yDdHjD5k,
-      user_id: process.env.user_z6CSGEVKE1LdXdyuRNFIH,
+      template_id: process.env.default,
+      user_id: process.env.default,
       template_params: {
         from_name: name,
         from_email: email,
@@ -56,6 +55,14 @@ class Contact extends Component {
 
   render() {
     const { sending, status, name, email, message } = this.state;
+    const Spinner = () => {
+      return (
+        <div className="spinner">
+          <div className="dot1"></div>
+          <div className="dot2"></div>
+        </div>
+      )
+    }
 
     return (
       <Container fluid className="contact">

@@ -15,9 +15,7 @@ class App extends React.Component {
   authenticate() {
     return new Promise((resolve) => setTimeout(resolve, 500));
   }
-  componentDidMount() {
-    this.component.doSomething();
-  }
+  
   componentDidMount() {
     this.authenticate().then(() => {
       const ele = document.getElementById("ipl-progress-indicator");
@@ -32,11 +30,9 @@ class App extends React.Component {
     });
     
     window.addEventListener('scroll', () => {
-      const sectionTitles = document.querySelectorAll('.section-title');
       const skillsList = document.querySelectorAll('.skills-list li');
       const projectList = document.querySelectorAll('.project-list li');
 
-      sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle));
       skillsList.forEach(li => this.toggleDisplay(li));
       projectList.forEach(li => this.toggleDisplay(li));
     });
