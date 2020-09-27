@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import './styles/index.scss';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -11,11 +11,11 @@ import 'tachyons';
 
 
 ReactDOM.render(
-  <Router>
+  <HashRouter>
   	<ScrollToTop>
 		<App />
 	</ScrollToTop>
-  </Router>,
+  </HashRouter>,
   document.getElementById("root")
 );
 
