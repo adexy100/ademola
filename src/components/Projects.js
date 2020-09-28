@@ -67,6 +67,13 @@ class Projects extends Component {
     }
   }
 
+  componentDidUpdate(prevProps) {
+    window.addEventListener('scroll', () => {
+      const projectList = document.querySelectorAll('.project-list li');
+      projectList.forEach(li => this.toggleDisplay(li));
+    });
+  };
+
   render () { 
     const projectList = document.querySelectorAll('.project-list li');
     projectList.forEach(li => this.toggleDisplay(li));
