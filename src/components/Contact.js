@@ -113,12 +113,12 @@ class Contact extends Component {
             <div className="modal-bg">
               <div className="modal">
                 {sending ? (
-                  <div className="modal--sending">
-                    <Spinner wrappedComponentRef={c => (this.component = c)} />
+                  <div className="bg-dark modal--sending">
+                    <Spinner />
                     <p>Sending message...</p>
                   </div>
                 ) : status === 'success' ? (
-                  <div className="modal--sent">
+                  <div className="bg-dark modal--sent">
                     <p>Message sent successfully!</p>
                     <p>I will get back to you as soon as I can!</p>
                     <button onClick={this.onModalClose}>OK</button>

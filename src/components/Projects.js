@@ -4,9 +4,7 @@ import GithubLogo from "../assets/GitHub-Mark-32px.png";
 import LinkedinLogo from "../assets/Linkedin-Mark-32px.png";
 import GmailLogo from "../assets/Gmail-Mark-32px.png";
 import { Link } from "react-router-dom";
-import Robofriends from "../assets/Robofriends.png";
-import FaceImage from '../assets/Face-image.png';
-import Pro from '../assets/Projects.png';
+import { PROJECTS } from "../components/Constant";
 
 const Project = ({ project }) => {
   
@@ -69,84 +67,19 @@ class Projects extends Component {
     }
   }
 
-  render () {
-    const PROJECTS = [
-      {
-        title: 'Face Detection App',
-        description: 'Detects faces in pictures. Built with React, Express, PostgreSql, Tachyons, and Clarifi API.',
-        image: FaceImage,
-        skills: ['React', 'Node', 'Express'],
-        links: {
-          website: 'http://www.epsa.com',
-          github: 'https://github.com/adexy100/Face-App'
-        }
-      },
-      {
-        title: 'Robofriends',
-        description: 'Fetch users data and search by name. Built with React and Redux.',
-        image: Robofriends,
-        skills: ['HTML', 'CSS', 'JavaScript'],
-        links: {
-          website: 'https://adexy100.github.io/Robofriends/',
-          github: 'https://github.com/adexy100/Robofriends'
-        }
-      },
-      {
-        title: 'Responsive Website',
-        description: 'Simple mobile-first web page designed to function well on multiple screen sizes',
-        image: Pro,
-        skills: ['HTML', 'CSS'],
-        links: {
-          website: 'https://adexy100.github.io/Responsive-Website/',
-          github: 'https://github.com/adexy100/Responsive-Website'
-        }
-      },
-      {
-        title: 'Payment Integration in React',
-        description: "React-Stripe Payment",
-        image: Pro,
-        skills: ['Stripe', 'React', 'Express'],
-        links: {
-          website: 'https://github.com/adexy100/',
-          github: 'https://github.com/adexy100/Payment-App'
-        }
-      },
-      {
-        title: 'Ecommerce Website',
-        description: 'secured website for shopping with an admin page',
-        image: Pro,
-        skills: ['React', 'Express', 'MongoDB'],
-        links: {
-          website: 'https://github.com/adexy100/',
-          github: 'https://github.com/adexy100/Ecommerce'
-        }
-      },
-      {
-        title: 'Blog',
-        description: 'Done with Node, Express, Ejs, Lodash, MongoDB.',
-        image: Pro,
-        skills: ['JavaScript', 'HTML', 'CSS'],
-        links: {
-          website: 'https://github.com/adexy100/',
-          github: 'https://github.com/adexy100/Sample-Blog'
-        }
-      },
-      {
-        title: "User's Profile w/Authetication",
-        description: 'A simple authetication users profile',
-        image: Pro,
-        skills: ['Node', 'Express', 'EJS', 'MongoDB'],
-        links: {
-          website: 'https://github.com/adexy100/',
-          github: 'https://github.com/adexy100/Login-Register-Profile-with-Authentication'
-        }
-      },
-    ];
+  componentDidMount() {
+    window.addEventListener('scroll', () => {
+      const sectionTitles = document.querySelectorAll('.section-title');
+      const skillsList = document.querySelectorAll('.skills-list li');
+      const projectList = document.querySelectorAll('.project-list li');
 
+      sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle));
+      skillsList.forEach(li => this.toggleDisplay(li));
+      projectList.forEach(li => this.toggleDisplay(li));
+    });
+  };
 
-    const projectList = document.querySelectorAll('.project-list li');
-    projectList.forEach(li => this.toggleDisplay(li)); 
-
+  render () { 
     return (
       <section id="projects" className="pv5">
         <Row className="justify-content-center">
@@ -155,9 +88,9 @@ class Projects extends Component {
               <div>
                 Thank you for your interest in learning about my work! Feel free
                 to{" "}
-                    <Link className="textLink red" to="/Contact">
-                      contact
-                    </Link>{" "} me.
+                  <Link className="textLink red" to="/Contact">
+                    contact
+                  </Link>{" "} me.
                 <div className="contact">
                   <span>
                     <a href="https://www.linkedin.com/in/ademola-adewumi-9096b4186/" target="_blank" rel="noopener noreferrer">
