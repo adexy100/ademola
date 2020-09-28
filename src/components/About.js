@@ -37,15 +37,6 @@ class About extends Component {
         circle.style.strokeDashoffset = circumference;
       });
     });
-    window.addEventListener('scroll', () => {
-      const sectionTitles = document.querySelectorAll('.section-title');
-      const skillsList = document.querySelectorAll('.skills-list li');
-      const projectList = document.querySelectorAll('.project-list li');
-
-      sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle));
-      skillsList.forEach(li => this.toggleDisplay(li));
-      projectList.forEach(li => this.toggleDisplay(li));
-    });
   }
 
   renderSkills = skills => {
@@ -80,6 +71,11 @@ class About extends Component {
   }
   
   render() {
+    const sectionTitles = document.querySelectorAll('.section-title');
+    const skillsList = document.querySelectorAll('.skills-list li');
+
+    sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle));
+    skillsList.forEach(li => this.toggleDisplay(li));
     
     return (
       <Container fluid className="About align-items-center">
@@ -143,7 +139,7 @@ class About extends Component {
                 familiar with the Mern-stack, including React.js, Redux, JavaScript, 
                 HTML/CSS, Bootstrap, Node.js, Express, PostgreSQL, and MongoDB. Also, Flutter for mobile-app development.
                 You can see some of my work in my{" "}
-                <Link className="textLink red" to="/Projects">
+                <Link className="textLink red" to="/projects">
                   'Projects'
                 </Link>{" "}
               </p>

@@ -32,11 +32,11 @@ const Home = () => {
                 <p class="fw3 f6 light-green">
                   I am a Full-stack developer from Lagos, Nigeria. To learn
                   more about me, please click{" "}
-                  <Link className="textLink fw5 red" to="/About">
+                  <Link className="textLink fw5 red" to="/about">
                     'About'
                   </Link>{" "}
                   or check out my{" "}
-                  <Link className="textLink fw5 red" to="/Projects">
+                  <Link className="textLink fw5 red" to="/projects">
                     'Projects'
                   </Link>{" "}
                   to see some of my work.

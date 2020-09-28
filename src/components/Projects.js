@@ -67,19 +67,9 @@ class Projects extends Component {
     }
   }
 
-  componentDidMount() {
-    window.addEventListener('scroll', () => {
-      const sectionTitles = document.querySelectorAll('.section-title');
-      const skillsList = document.querySelectorAll('.skills-list li');
-      const projectList = document.querySelectorAll('.project-list li');
-
-      sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle));
-      skillsList.forEach(li => this.toggleDisplay(li));
-      projectList.forEach(li => this.toggleDisplay(li));
-    });
-  };
-
   render () { 
+    const projectList = document.querySelectorAll('.project-list li');
+    projectList.forEach(li => this.toggleDisplay(li));
     return (
       <section id="projects" className="pv5">
         <Row className="justify-content-center">
@@ -88,7 +78,7 @@ class Projects extends Component {
               <div>
                 Thank you for your interest in learning about my work! Feel free
                 to{" "}
-                  <Link className="textLink red" to="/Contact">
+                  <Link className="textLink red" to="/contact">
                     contact
                   </Link>{" "} me.
                 <div className="contact">

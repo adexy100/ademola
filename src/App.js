@@ -29,7 +29,7 @@ class App extends React.Component {
       }
     });
     
-    window.addEventListener('click', () => {
+    window.addEventListener('scroll', () => {
       const sectionTitles = document.querySelectorAll('.section-title');
       const skillsList = document.querySelectorAll('.skills-list li');
       const projectList = document.querySelectorAll('.project-list li');
