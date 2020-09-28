@@ -37,6 +37,14 @@ class About extends Component {
         circle.style.strokeDashoffset = circumference;
       });
     });
+
+    window.addEventListener('scroll', () => {
+      const sectionTitles = document.querySelectorAll('.section-title');
+      const skillsList = document.querySelectorAll('.skills-list li');
+
+      sectionTitles.forEach(sectionTitle => this.toggleDisplay(sectionTitle));
+      skillsList.forEach(li => this.toggleDisplay(li));
+    });
   }
 
   renderSkills = skills => {
