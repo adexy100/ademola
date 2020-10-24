@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17c304557f0b695e1ec22f186205679d",
+    "revision": "fe79b1e377c546266ae1a72e2473f030",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.dec34a04.chunk.css"
   },
   {
-    "revision": "0db9daefd352eaa3b494",
+    "revision": "eeb03b66059ee4fd8d8f",
     "url": "/static/css/main.17c5d0e1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.35a87189.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0db9daefd352eaa3b494",
-    "url": "/static/js/main.20da2e10.chunk.js"
+    "revision": "eeb03b66059ee4fd8d8f",
+    "url": "/static/js/main.7aedf4f3.chunk.js"
   },
   {
     "revision": "420d11f43645d04fc865",
@@ -40,16 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Robofriends.ff85becb.png"
   },
   {
-    "revision": "9616dd420ad125fd3230f0fce90f0a0a",
-    "url": "/static/media/ecommerce.9616dd42.png"
+    "revision": "7d90a25046b066f9a19d7eede18ae658",
+    "url": "/static/media/ecommerce.7d90a250.png"
   },
   {
-    "revision": "bdf8f9c81d9b204672a196889a3acb96",
-    "url": "/static/media/face-app.bdf8f9c8.png"
+    "revision": "7e4d007c65d365afb8775a16334d42cb",
+    "url": "/static/media/face-app.7e4d007c.png"
   },
   {
-    "revision": "a23eb9af1dce25e11531422c2e3c8057",
-    "url": "/static/media/pay-me.a23eb9af.png"
+    "revision": "f755f0b79c66943985c5cb6f9b0f8256",
+    "url": "/static/media/pay-me.f755f0b7.png"
   },
   {
     "revision": "5d92815291d67819207c7b4cfe36ccc2",
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile-photo-2.494c3a91.jpeg"
   },
   {
-    "revision": "aa822ad0a6d102422357d0087c551eb9",
-    "url": "/static/media/user-profile.aa822ad0.png"
+    "revision": "21d132664d769b5359e2de91c646e07b",
+    "url": "/static/media/user-profile.21d13266.png"
   }
 ]);

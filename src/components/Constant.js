@@ -218,8 +218,8 @@ export const PROJECTS = [
     }
   },
   {
-    title: 'Payment Integration in React',
-    description: "React-Stripe Payment",
+    title: 'Pay-me App',
+    description: "Integration of React-Stripe Payment",
     image: PayMe,
     skills: ['Stripe', 'React', 'Express'],
     links: {
@@ -238,7 +238,7 @@ export const PROJECTS = [
     }
   },
   {
-    title: 'Blog',
+    title: 'Sample Blog',
     description: 'Done with Node, Express, Ejs, Lodash, MongoDB.',
     image: Pro,
     skills: ['JavaScript', 'HTML', 'CSS'],
