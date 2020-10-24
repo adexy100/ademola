@@ -1,7 +1,13 @@
 import React from 'react';
 import Robofriends from "../assets/Robofriends.png";
-import FaceImage from '../assets/Face-image.png';
-import Pro from '../assets/Projects.png';
+import Pro from '../assets/pro.png';
+import Ecommerce from '../assets/ecommerce.png';
+import User from '../assets/user-profile.png';
+import FaceApp from '../assets/face-app.png';
+import PayMe from '../assets/pay-me.png';
+
+
+
 
 export const SKILLS = [
   {
@@ -184,10 +190,10 @@ export const PROJECTS = [
   {
     title: 'Face Detection App',
     description: 'Detects faces in pictures. Built with React, Express, PostgreSql, Tachyons, and Clarifi API.',
-    image: FaceImage,
-    skills: ['React', 'Node', 'Express'],
+    image: FaceApp,
+    skills: ['React', 'PostgreSql', 'Express'],
     links: {
-      website: 'http://www.epsa.com',
+      website: 'https://face-app-detect.netlify.app',
       github: 'https://github.com/adexy100/Face-App'
     }
   },
@@ -195,7 +201,7 @@ export const PROJECTS = [
     title: 'Robofriends',
     description: 'Fetch users data and search by name. Built with React and Redux.',
     image: Robofriends,
-    skills: ['HTML', 'CSS', 'JavaScript'],
+    skills: ['React', 'Redux', 'JavaScript'],
     links: {
       website: 'https://adexy100.github.io/Robofriends/',
       github: 'https://github.com/adexy100/Robofriends'
@@ -214,21 +220,21 @@ export const PROJECTS = [
   {
     title: 'Payment Integration in React',
     description: "React-Stripe Payment",
-    image: Pro,
+    image: PayMe,
     skills: ['Stripe', 'React', 'Express'],
     links: {
-      website: 'https://github.com/adexy100/',
+      website: 'https://serene-tor-43860.herokuapp.com',
       github: 'https://github.com/adexy100/Payment-App'
     }
   },
   {
     title: 'Ecommerce Website',
     description: 'secured website for shopping with an admin page',
-    image: Pro,
+    image: Ecommerce,
     skills: ['React', 'Express', 'MongoDB'],
     links: {
-      website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/Ecommerce'
+      website: 'https://nameless-wildwood-01106.herokuapp.com/',
+      github: 'https://github.com/adexy100/Edit'
     }
   },
   {
@@ -237,18 +243,18 @@ export const PROJECTS = [
     image: Pro,
     skills: ['JavaScript', 'HTML', 'CSS'],
     links: {
-      website: 'https://github.com/adexy100/',
+      website: 'https://enigmatic-citadel-27379.herokuapp.com/',
       github: 'https://github.com/adexy100/Sample-Blog'
     }
   },
   {
     title: "User's Profile w/Authetication",
-    description: 'A simple authetication users profile',
-    image: Pro,
-    skills: ['Node', 'Express', 'EJS', 'MongoDB'],
+    description: 'A simple react-firebase authetication app',
+    image: User,
+    skills: ['React', 'Firebase', 'Ant-design'],
     links: {
-      website: 'https://github.com/adexy100/',
-      github: 'https://github.com/adexy100/Login-Register-Profile-with-Authentication'
+      website: 'https://profile-user.netlify.app',
+      github: 'https://github.com/adexy100/user-profile'
     }
   },
 ];

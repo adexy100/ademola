@@ -1,31 +1,34 @@
 {
   "files": {
     "main.css": "/static/css/main.17c5d0e1.chunk.css",
-    "main.js": "/static/js/main.422e5c5b.chunk.js",
-    "main.js.map": "/static/js/main.422e5c5b.chunk.js.map",
+    "main.js": "/static/js/main.20da2e10.chunk.js",
+    "main.js.map": "/static/js/main.20da2e10.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b126251.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
     "static/css/2.dec34a04.chunk.css": "/static/css/2.dec34a04.chunk.css",
-    "static/js/2.1ec5585e.chunk.js": "/static/js/2.1ec5585e.chunk.js",
-    "static/js/2.1ec5585e.chunk.js.map": "/static/js/2.1ec5585e.chunk.js.map",
+    "static/js/2.35a87189.chunk.js": "/static/js/2.35a87189.chunk.js",
+    "static/js/2.35a87189.chunk.js.map": "/static/js/2.35a87189.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4d547950c9c69439aa2d535b74ab8151.js": "/precache-manifest.4d547950c9c69439aa2d535b74ab8151.js",
+    "precache-manifest.2219317840a999d60d1fb37578cee02a.js": "/precache-manifest.2219317840a999d60d1fb37578cee02a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.dec34a04.chunk.css.map": "/static/css/2.dec34a04.chunk.css.map",
     "static/css/main.17c5d0e1.chunk.css.map": "/static/css/main.17c5d0e1.chunk.css.map",
-    "static/js/2.1ec5585e.chunk.js.LICENSE.txt": "/static/js/2.1ec5585e.chunk.js.LICENSE.txt",
+    "static/js/2.35a87189.chunk.js.LICENSE.txt": "/static/js/2.35a87189.chunk.js.LICENSE.txt",
     "static/media/AdemolaCV.pdf": "/static/media/AdemolaCV.87d23507.pdf",
-    "static/media/Face-image.png": "/static/media/Face-image.00683d2e.png",
     "static/media/ProfilePic2.jpeg": "/static/media/ProfilePic2.f12fc94c.jpeg",
-    "static/media/Projects.png": "/static/media/Projects.5d928152.png",
     "static/media/Robofriends.png": "/static/media/Robofriends.ff85becb.png",
-    "static/media/profile-photo-2.jpeg": "/static/media/profile-photo-2.494c3a91.jpeg"
+    "static/media/ecommerce.png": "/static/media/ecommerce.9616dd42.png",
+    "static/media/face-app.png": "/static/media/face-app.bdf8f9c8.png",
+    "static/media/pay-me.png": "/static/media/pay-me.a23eb9af.png",
+    "static/media/pro.png": "/static/media/pro.5d928152.png",
+    "static/media/profile-photo-2.jpeg": "/static/media/profile-photo-2.494c3a91.jpeg",
+    "static/media/user-profile.png": "/static/media/user-profile.aa822ad0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9b126251.js",
     "static/css/2.dec34a04.chunk.css",
-    "static/js/2.1ec5585e.chunk.js",
+    "static/js/2.35a87189.chunk.js",
     "static/css/main.17c5d0e1.chunk.css",
-    "static/js/main.422e5c5b.chunk.js"
+    "static/js/main.20da2e10.chunk.js"
   ]
 }
