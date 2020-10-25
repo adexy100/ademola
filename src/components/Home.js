@@ -28,7 +28,7 @@ const Home = () => {
               <div className="intro-image">
                 <img src={ProfilePhoto} alt="Ademola Adewumi" />
               </div>
-              <Media.Body className="home-media">
+              <Media.Body className="home-media"> 
                 <p class="fw3 f6 light-green">
                   I am a Full-stack developer from Lagos, Nigeria. To learn
                   more about me, please click{" "}
@@ -59,9 +59,7 @@ const Home = () => {
                       attention has to be paid to all of the facets involved in presenting the message. The most important 
                       of these is the effective targeting of both the message and the consumers of that message.`}
                       secondSnippet={`If you are considering developing an Internet website for your company, enhancing 
-                      your existing one, please contact me for some of those ideas.
-                      Now I use my Web development skills to develop your website. This is when I convert design into code.
-                      Skills : HTML5, CSS3, Javascript, Bootstrap, jQuery, Git, MongoDB, Express, ReactJS, NodeJS.`}
+                      your existing one, please contact me for some of those ideas.`}
                     />
                   </p>
                 </div>

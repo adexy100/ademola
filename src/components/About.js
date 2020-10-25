@@ -143,7 +143,7 @@ class About extends Component {
               <p className="f6 skills-font light-green grow">
                 I began programming in C and Fortran over 5 years ago as part of my 
                 degree in Geology and Mineral Science to compute geological data.
-                After graduation, I devoted some time to learn web and mobile development. Since then I have become deeply 
+                After graduation, I devoted some time to learn web and mobile app development. Since then I have become deeply 
                 familiar with the Mern-stack, including React.js, Redux, JavaScript, 
                 HTML/CSS, Bootstrap, Node.js, Express, PostgreSQL, and MongoDB. Also, Flutter for mobile-app development.
                 You can see some of my work in my{" "}
